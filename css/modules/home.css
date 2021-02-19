@@ -32,3 +32,26 @@
 .nav-items li:hover {
     color: #fca60f;
 }
+
+.content{
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.first-background {
+    width: 26em;
+
+    margin-bottom: 100%;
+    margin-left: -130%;
+}
+
+.second-background {
+    width: 26em;
+
+    margin-top: 50%;
+    margin-right: -125%;
+}
