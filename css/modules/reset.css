@@ -36,7 +36,7 @@ table {
 body, html {
   width: 100%;
 	height: max-content;
-    font: normal 400 14px/1em 'Roboto', sans-serif;
+    font: normal 400 14px/1em 'Nunito', sans-serif;
     background-color: #fff;
 }
 body { line-height: 1em; }
