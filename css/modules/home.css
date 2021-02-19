@@ -33,25 +33,65 @@
     color: #fca60f;
 }
 
-.content{
-    min-height: 100vh;
+.backgrounds {
+    height: 100vh;
 
+    background-image: url("../../assets/images/forma1.svg"), url("../../assets/images/forma2.svg");
+    background-position: top left, center right;
+    background-position-x: -25vh, 30vh;
+    background-position-y: 5vh, 44.5vh;
+    background-repeat: no-repeat;
+    background-size: 25em, 25em;
+    background-attachment: scroll;
+}
+
+.content {
+    min-height: 40vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+
+    position: absolute;
+    top: 155px;
 }
 
-.first-background {
-    width: 26em;
+.main-text {
+    font: 700 normal 1.5rem/1em 'Nunito', sans-serif;
+    text-align: center;
+    line-height: 27px;
+    color: #212121;
 
-    margin-bottom: 100%;
-    margin-left: -130%;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 15% 4%;
 }
 
-.second-background {
-    width: 26em;
+.main-btn {
+    width: 240px;
+    height: 49px;
 
-    margin-top: 50%;
-    margin-right: -125%;
+    font: 700 normal 1.3rem/1em 'Nunito', sans-serif;
+    color: #fff;
+
+    background-color: #fca60f;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.main-btn:hover {
+    background-color: #ee9908;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 411px) {
+    .backgrounds {
+        background-position-y: 5vh, 40vh;
+        background-position-x: -18vh, 25vh;
+    }
 }
