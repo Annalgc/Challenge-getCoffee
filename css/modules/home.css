@@ -5,6 +5,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     box-shadow: 0 1px 8px rgba(36, 36, 36, .15);
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items {
+    font: 600 normal 1.3rem/1em 'Nunito', sans-serif;
+    color: #212121;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 70%;
+    padding: 5% 0 0;
+}
+
+.nav-items li:hover {
+    color: #fca60f;
 }
